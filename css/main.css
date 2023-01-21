@@ -90,3 +90,15 @@ img {
    justify-content: space-between;
    margin-bottom: 80px;
 }
+
+@media screen and (max-width: 767px) {
+   .team__members {
+      flex-wrap: wrap;
+      justify-content: space-around;
+      gap: 20px;
+   }
+
+   .team__members img {
+      max-width: 500px;
+   }
+}
