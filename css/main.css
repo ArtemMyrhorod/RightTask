@@ -99,3 +99,16 @@ img {
 .about__btn {
    border-color: var(--color-accent);
 }
+
+@media screen and (max-width: 992px) {
+   .about__wrapper {
+      flex-direction: column;
+   }
+}
+
+@media screen and (max-width: 400px) {
+   .btn {
+      padding: 15px;
+      font-size: 14px;
+   }
+}
