@@ -110,3 +110,28 @@ img {
    background-color: #ffffff;
    align-self: flex-end;
 }
+
+@media screen and (max-width: 992px) {
+   .banner__wrapper {
+      flex-direction: column;
+      gap: 30px;
+   }
+}
+
+@media screen and (max-width: 767px) {
+   .banner__text {
+      font-size: 22px;
+      line-height: 34px;
+   }
+
+   .banner__wrapper {
+      padding: 20px 30px 20px;
+   }
+}
+
+@media screen and (max-width: 400px) {
+   .btn {
+      padding: 15px;
+      font-size: 14px;
+   }
+}
