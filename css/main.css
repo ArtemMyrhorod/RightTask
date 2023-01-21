@@ -76,3 +76,17 @@ img {
    color: #ffffff;
    background-color: var(--color-accent)
 }
+
+.team {
+   padding: 20px 0 20px;
+}
+
+.team__text {
+   padding-bottom: 35px;
+}
+
+.team__members {
+   display: flex;
+   justify-content: space-between;
+   margin-bottom: 80px;
+}
