@@ -76,3 +76,26 @@ img {
    color: #ffffff;
    background-color: var(--color-accent)
 }
+
+.about {
+   padding: 20px 0 20px;
+}
+
+.about__wrapper {
+   display: flex;
+   justify-content: space-between;
+   gap: 32px;
+}
+
+.about__info {
+   max-width: 350px;
+   padding-top: 40px;
+}
+
+.about__text {
+   padding-bottom: 15px;
+}
+
+.about__btn {
+   border-color: var(--color-accent);
+}
